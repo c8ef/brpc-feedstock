@@ -16,6 +16,7 @@ source:
     # guard the Linux-only SO_BINDTODEVICE socket option, missing from the
     # macOS SDK; backport of https://github.com/apache/brpc/pull/3320
     - patches/0001-fix-guard-SO_BINDTODEVICE.patch
+    - patches/0002-fix-libprotobuf.patch
 
 build:
   number: 0
